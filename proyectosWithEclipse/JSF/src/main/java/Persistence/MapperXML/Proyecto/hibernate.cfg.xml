@@ -10,7 +10,6 @@
         <property name="hibernate.connection.password">1234</property>
         <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
 
-
 	<property name="connection.pool_size">1</property>
     	<!-- Después de que el proyecto de hibernación se ejecute correctamente, puede ver la instrucción sql formateada en la consola-->
     	<property name="format_sql">true</property>
@@ -19,9 +18,6 @@
     	<!-- Eliminar la estructura de la tabla original y agregar datos después de generar una nueva tabla-->
     	<!-- actualiza el valor, conserva la tabla original, agrega nuevos datos-->
     	<property name="show_sql">true</property>
-    	
-    	
-
         
         <mapping resource="Persistence/MapperXML/Proyecto/Proyecto.hbm.xml"/>
     </session-factory>

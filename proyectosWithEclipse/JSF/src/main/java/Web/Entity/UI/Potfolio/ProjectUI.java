@@ -49,8 +49,8 @@ public class ProjectUI {
 
     public ProjectUI() {
 		this.listProjects = new ArrayList<>();
-		this.listProjects.add(new Project(1,"nombreUno","DescriptionUno","CategoryUno", "/imagenes/navigator/1.jpg", LocalDate.of(2001, FEBRUARY, 25)));
-		this.listProjects.add(new Project(1,"nombreDos","DescriptionDos","CategoryDos", "/imagenes/navigator/1.jpg", LocalDate.of(2002, SEPTEMBER, 26)));
+		this.listProjects.add(new Project(1,"nombreU","DescriptionUno","CategoryUno", "/imagenes/navigator/1.jpg", LocalDate.of(2001, FEBRUARY, 25)));
+		this.listProjects.add(new Project(1,"nombreD","DescriptionDos","CategoryDos", "/imagenes/navigator/1.jpg", LocalDate.of(2002, SEPTEMBER, 26)));
 		this.listProjects.add(new Project(1,"nombreTres","DescriptionTres","CategoryTres", "/imagenes/navigator/1.jpg", LocalDate.of(2002, AUGUST, 5)));
 		this.listProjects.add(new Project(1,"nombreCuatro","DescriptionCuatro","CategoryCuatro", "/imagenes/navigator/1.jpg", LocalDate.of(2003, FEBRUARY, 9)));
 		this.listProjects.add(new Project(1,"nombreCinco","DescriptionCinco","CategoryUno", "/imagenes/navigator/1.jpg", LocalDate.of(2004, SEPTEMBER, 24)));

@@ -8,7 +8,6 @@ public class Variables {
 		/*
 		 * Comentarios
 		 */
-		
 		int numero;
 		double decimal;
 		char letra;
@@ -22,16 +21,10 @@ public class Variables {
 		letra=JOptionPane.showInputDialog("Ingrese el caracter").charAt(0);
 		
 		JOptionPane.showMessageDialog(null, "Este es para sacar datos");;
-		
-		
-		
-		
-		
+
 		byte edad=50;
 		
 		// este es un metodo del objeto System "consola"
 		System.out.println("mi edad es "+edad);
-
 	}
-
 }

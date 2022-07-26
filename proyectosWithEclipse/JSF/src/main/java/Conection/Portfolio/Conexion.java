@@ -1,7 +1,9 @@
 package Conection.Portfolio;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Conexion {
@@ -18,7 +20,10 @@ public class Conexion {
 		} catch (SQLException ex) {
 			System.out.println(ex.toString());
 			return null;
-		}
-		
+		}		
+	}
+	
+	public static ResultSet executeSP(CallableStatement callableStament) throws SQLException {
+		return callableStament.executeQuery();
 	}
 }

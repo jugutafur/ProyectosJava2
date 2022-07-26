@@ -28,7 +28,7 @@ public class AveryBigSum {
 		System.out.println("This app you can use to Sum big data");
 		
 		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("C:\\Users\\HP\\Desktop\\juanTafur\\jugutafur\\proyectosJava\\VEstudioEnserio\\src\\EntremientoJava\\AveryBigSum.txt"));
+		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("C:\\Users\\HP\\Desktop\\juanTafur\\jugutafur\\proyectosJava\\proyectosWithEclipse\\VEstudioEnserio\\src\\EntremientoJava\\AveryBigSum.txt"));
 		
 		System.out.println("Please insert size of number");
 		cantidad = Integer.parseInt(bufferedReader.readLine().trim());

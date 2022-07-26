@@ -6,8 +6,6 @@ import Persistence.MapperXML.Proyecto.Proyecto;
 
 public class ProyectoDAO {
 	
-	//Data Access Object
-	
 	private Session session;
 	
 	public List<Proyecto> verificarProyecto(Proyecto Proyecto) throws Exception {

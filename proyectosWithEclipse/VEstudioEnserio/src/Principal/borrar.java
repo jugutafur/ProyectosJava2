@@ -1,5 +1,4 @@
 package Principal;
-package 
 
 public class borrar {
 
