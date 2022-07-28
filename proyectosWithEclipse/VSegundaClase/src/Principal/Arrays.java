@@ -18,7 +18,7 @@ public class Arrays {
 		int [] mi_matriz = new int[5]; 
 		
 		//defifinicion de valores de la matriz
-		mi_matriz[0]= 5;
+		mi_matriz[0]= 57;
 		mi_matriz[1]= 38;
 		mi_matriz[2]= -15;
 		mi_matriz[3]= 92;	

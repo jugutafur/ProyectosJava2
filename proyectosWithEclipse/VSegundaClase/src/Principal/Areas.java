@@ -12,7 +12,7 @@ public class Areas {
 		String cadena;
 		float flotante;
 		
-		numero=Integer.parseInt(JOptionPane.showInputDialog("Ingrese una cadena de String"));
+		numero=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un entero"));
 		decimal=Double.parseDouble(JOptionPane.showInputDialog("Ingrese el numero Double"));
 		flotante=Float.parseFloat(JOptionPane.showInputDialog("Ingrese el dato de tipo float"));
 		cadena=JOptionPane.showInputDialog("Ingrese la cedena de String");

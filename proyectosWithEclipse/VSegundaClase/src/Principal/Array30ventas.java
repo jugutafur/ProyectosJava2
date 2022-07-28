@@ -9,7 +9,7 @@ public class Array30ventas {
 	
 	public static void main(String args[]) {
 		
-		System.out.println("Array de 30 ventas ");
+		System.out.println("Array de 30 ventas");
 		
 		
 		System.out.println("El valor de la suma = "+ Borrar.sumar(5,6));

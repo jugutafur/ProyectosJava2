@@ -16,7 +16,7 @@ public class UsoFechas {
 	
 	public static void main(String [] args) {
 		
-		System.out.println("usted se llama " +args[0]+ " "+args[1]);
+		System.out.println("usted se llama " +args[0]+ " "+args[1]);//Debes de insertar las variables antes de ejecutarlo
 		System.out.println("This app you can use to dates");
 		System.out.println("El nacimiento de Abraham Lincoln "
 				+ "fue el 12 de febrero de 1809\ny murio el 15 "
