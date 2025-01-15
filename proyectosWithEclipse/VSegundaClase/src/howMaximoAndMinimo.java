@@ -16,6 +16,16 @@ public class howMaximoAndMinimo {
 		}
 		System.out.println("The maximo value of array = "+maximo);
 		System.out.println("The minimo value of array = "+minimo);
+		
+		System.out.println("This other way that you find maximo and minimo");
+		
+		minimo = maximo = enteros[0];
+		for(int iterador : enteros) {
+			if(iterador> maximo) maximo = iterador;
+			if(iterador< minimo) minimo = iterador;
+		}
+		System.out.println("The maximo2 value of array = "+maximo);
+		System.out.println("The minimo2 value of array = "+minimo);
 	}
 
 }
